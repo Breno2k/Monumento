@@ -129,6 +129,10 @@ nav {
     justify-content: space-between;
 }
 
+section#topo nav {
+    background-color: #4F4F4F;
+}
+
 nav .logo {
     width: 80px;
     transition: all 1s;
@@ -249,4 +253,46 @@ nav ul li a:hover {
 #arrow-up:hover {
     transition: all 0.3s;
     transform: scale(0.8);
+}
+
+/* -------------------------- Footer -------------------------- */
+
+footer#footer {
+    background-color: #4F4F4F;
+    text-align: center;
+}
+
+.midiaSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.midiaSocial a {
+    display: flex;
+    background: #4F4F4F;
+    height: 65px;
+    width: 65px;
+    margin: 0 15px;
+    border-radius: 100px;
+    align-items: center; /* atenção */
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(168,208,224,0.14), -6px -6px 10px -1px rgba(168,208,224,0.14);
+    transition: 0.5s;
+}
+
+.midiaSocial a i {
+    font-size: 46px !important;
+    color: #000 !important;
+}
+
+.midiaSocial a:hover i {
+    transform: scale(0.90);
+    color: #fff;
+}
+
+.midiaSocial a:hover {
+    transform: scale(0.80);
 }

@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://kit.fontawesome.com/e70741025b.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,26 +35,28 @@
 </head>
 
 <body>    
-    <div class="hero">
-        <video autoplay loop muted plays-inline class="back-video">
-            <source src="Video/worldBack.mp4" type="video/mp4">
-        </video><!--Video Background-->
-        <nav>
-            <img src="Image/White_Logo.png" class="logo" alt="">
-            <ul>
-                <li><a class="nav-Home" href="#">Home</a></li>
-                <li><a class="nav-Contact" href="#">Contact</a></li>
-                <li><a class="nav-About" href="#">About</a></li>
-                <li><a class="nav-Services" href="#">Services</a></li>
-            </ul><!--Itens do Menu-->
-        </nav><!--Menu-->
-        <div class="content">
-            <h1>Monumento</h1>
-            <a href="#">Explore</a>
-        </div><!--Título e Botão Explore-->
-        <a href="#"><i class="fa-sharp fa-solid fa-location-arrow" id="arrow-down"></i></a>
-        <a href="#"><i class="fa-sharp fa-solid fa-location-arrow" id="arrow-up"></i></a>
-    </div>
+    <section id="topo">
+        <div class="hero">
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="Video/worldBack.mp4" type="video/mp4">
+            </video><!--Video Background-->
+            <nav>
+                <img src="Image/White_Logo.png" class="logo" alt="">
+                <ul>
+                    <li><a class="nav-Home" href="#">Home</a></li>
+                    <li><a class="nav-Contact" href="#">Contact</a></li>
+                    <li><a class="nav-About" href="#">About</a></li>
+                    <li><a class="nav-Services" href="#">Services</a></li>
+                </ul><!--Itens do Menu-->
+            </nav><!--Menu-->
+            <div class="content">
+                <h1>Monumento</h1>
+                <a href="#">Explore</a>
+            </div><!--Título e Botão Explore-->
+            <a href="#"><i class="fa-sharp fa-solid fa-location-arrow" id="arrow-down"></i></a>
+            <a href="#"><i class="fa-sharp fa-solid fa-location-arrow" id="arrow-up"></i></a>
+        </div>
+    </section>
 
     
 
@@ -70,5 +74,25 @@
             <li><a href="#">Feedback</a></li>
         </ul>
     </nav>-->
+
+    <!-- footer -->
+    <footer id="footer" class="page-footer">
+        <img src="image/Black_Monumento.png">
+        <!-- <h5 class="white-text">Fale conosco</h5> -->
+        <div class="midiaSocial">
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+         </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © Todos os direitos reservados - Monumento Software 2022. -
+          </div>
+        </div>
+      </footer>
+
+    <script src="JS/global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
