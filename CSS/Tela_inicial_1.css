@@ -130,7 +130,7 @@ nav {
 }
 
 section#topo nav {
-    background-color: #4F4F4F;
+    background-color: rgba(79,79,79,0.5);
 }
 
 nav .logo {
@@ -138,10 +138,12 @@ nav .logo {
     transition: all 1s;
 }
 
+/*
 nav .logo:hover {
     transition: all 0.3s;
     transform: scale(1.4);
-}
+} 
+*/
 
 nav ul li {
     list-style: none;
